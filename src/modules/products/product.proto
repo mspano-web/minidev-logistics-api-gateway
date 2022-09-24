@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package product;
+
+service ProductServices  {
+  rpc GetProduct (RqFindProduct) returns (RsFindProduct) {};
+  rpc GetProducts (RqFindProducts) returns (RsFindProducts) {};
+  rpc CreateProduct (RqCreateProduct) returns (RsCreateProduct) {};
+}
+
+/* ---------------------  getProduct --------------------- */
+
+message  ProductData{
+  string id = 1;
+  string description = 2;
+  double weight = 3;
+  double volume = 4;
+  double price = 5;
+}
+
+message RqFindProduct {
+  string id = 1;
+}
+
+message RsFindProduct {
+  int32 status = 1;
+  string error = 2;
+  ProductData data = 3;
+}
+
+/* ---------------------  getProducts --------------------- */
+
+message RqFindProducts {}
+
+message RsFindProducts {
+  int32 status = 1;
+  string error = 2;
+  repeated ProductData data = 3;
+}
+
+/* ---------------------  createProducts --------------------- */
+
+message RqCreateProduct {
+  string description = 2;
+  double weight = 3;
+  double volume = 4;
+  double price = 5;
+}
+
+message RsCreateProduct {
+  int32 status = 1;
+  string error = 2;
+  string id = 3;
+}
