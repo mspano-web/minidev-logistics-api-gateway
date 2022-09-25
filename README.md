@@ -54,7 +54,17 @@ ___
 
 ## Otros microservicios del proyecto / Other project microservices
 
-
+* [api-gateway](https://github.com/mspano-web/minidev-logistics-api-gateway)
+* [ms-company-dependencies](https://github.com/mspano-web/minidev-logistics-ms-company-dependencies)
+* [ms-customers](https://github.com/mspano-web/minidev-logistics-ms-customers)
+* [ms-location](https://github.com/mspano-web/minidev-logistics-ms-location)
+* [ms-orders](https://github.com/mspano-web/minidev-logistics-ms-orders)
+* [ms-params](https://github.com/mspano-web/minidev-logistics-ms-params)
+* [ms-products](https://github.com/mspano-web/minidev-logistics-ms-products)
+* [ms-route](https://github.com/mspano-web/minidev-logistics-ms-route)
+* [ms-security](https://github.com/mspano-web/minidev-logistics-ms-security)
+* [ms-transports](https://github.com/mspano-web/minidev-logistics-ms-transports)
+* [ms-zones](https://github.com/mspano-web/minidev-logistics-ms-zones)
 
 ___
 
