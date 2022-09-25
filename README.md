@@ -2,72 +2,71 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+# MiniDev-Logistic:  api-gateway
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+La presente iniciativa contiene el codigo de un mini desarrollo de software BackEnd.
+En particular, este proyecto contiene el modulo denominado api-gateway.
+Es totalmente gratuito y compartido como un aporte a la comunidad. 
+Se focalizará en el procesamiento distribuido, mediante la aplicación del enfoque de microservicios. 
+Se apoya en videos que seran publicados en el canal de youtube:  [Developer Web MS](https://www.youtube.com/playlist?list=PLWnRJL1SdIio8TshcHJrJ6_3btfZDuz4O).
 
-## Description
+___
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This initiative contains the code of a mini BackEnd software development.
+In particular, this project contains the module called api-gateway.
+It is completely free and shared as a contribution to the community. It will focus on distributed processing, by applying the microservices approach. 
+It is supported by videos that will be published on the YouTube channel: [Developer Web MS](https://www.youtube.com/playlist?list=PLWnRJL1SdIio8TshcHJrJ6_3btfZDuz4O).
 
-## Installation
+___
 
-```bash
-$ npm install
-```
+## Tecnologías / Technologies
 
-## Running the app
+* NestJS
+* Express.js
+* TypeScript
+* TypeORM
+* Prisma ORM
+* Sequelize ORM
+* MongoDB
+* MySQL
+* Postgres
+* JSON Web Token
+* Bcrypt
+* Passport
+* Swagger
+* TCP-IP
+* gRPC
+* NATS
+* Redis
+* RabbitMQ
+* Kafka
+* Kafdrop
+* MQTT
+* Mosquitto
 
-```bash
-# development
-$ npm run start
+___
 
-# watch mode
-$ npm run start:dev
+## Información del proyecto / Project information
 
-# production mode
-$ npm run start:prod
-```
+* Developer Web MS - [Youtube channel](https://www.youtube.com/playlist?list=PLWnRJL1SdIio8TshcHJrJ6_3btfZDuz4O) - (YOUTUBE)
 
-## Test
+___
 
-```bash
-# unit tests
-$ npm run test
+## Otros microservicios del proyecto / Other project microservices
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+___
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Documentacion de soporte / Support documentation
 
-## Stay in touch
+* [NestJS Oficial Page](https://nestjs.com/)
+* [Nest Documentation](https://docs.nestjs.com)
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+* [Conceptual model](https://drive.google.com/file/d/1J8SP8eegLsDO6UXshc8mSwEt9JNpoYGT/view?usp=sharing) (Google Drive)
+* [UI Mobile](https://www.figma.com/file/uyaK3PgTdLR0PPF6ggmqEi/LOGISTIC) (Figma)
+* [Application Architecture Diagram](https://drive.google.com/file/d/1BmU9Eli3F8ZYEzie3Xy9RB_6Lpt-DPnU/view) (Google Drive)
+* [Kafka Internals Diagram](https://www.figma.com/file/Qol9O1fev7oDu5zQ0xWLbx/Kafka?node-id=0%3A1) (Figma)
+* [Kafgrop](https://github.com/obsidiandynamics/kafdrop) (GitHub)
 
-## License
-
-Nest is [MIT licensed](LICENSE).
+(Figma) : use + para acercar, - para alejar) / (Figma: use + to zoom in, - to zoom out)*
